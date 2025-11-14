@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "AKONY";
+    src: url('../fonts/AKONY.woff2') format("woff2");
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-style: none;
+    user-select: none;
+    border: 0;
+    font-family: "AKONY";
+}
+body{
+    background: url("../img/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    min-height: 100vh;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__btn{
+    color: #2b2a29;
+    font-size: 22px;
+    padding: 15px 30px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background: none;
+}
+.main__btn__red{
+    color: #d41b20;
+}
